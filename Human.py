@@ -19,6 +19,12 @@ class Human:
 	def loose(self,diffweight):
 		self.loose -= diffweight
 	
-	
+
+class Man(Human):
+	def __init__(self,name,age,height,weight):
+		super().__init__(name,'Man',age,height,weight)
+
+
+		
 
 
