@@ -7,7 +7,8 @@ class Human:
 
 	def born(self):
 		self.age = 0
-
+		self.life = True
+		
 	def grow(self):
 		self.age +=1
 		if self.age < 21:
@@ -19,6 +20,7 @@ class Human:
 	def loose(self,diffweight):
 		self.loose -= diffweight
 	
-	
+	def dead(self):
+		self.life = False
 
 
