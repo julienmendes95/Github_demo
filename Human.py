@@ -7,6 +7,7 @@ class Human:
 
 	def born(self):
 		self.age = 0
+		self.life = True
 
 	def grow(self):
 		self.age +=1
@@ -18,8 +19,7 @@ class Human:
 
 	def loose(self,diffweight):
 		self.loose -= diffweight
-	
-
+			
 class Man(Human):
 	def __init__(self,name,age,height,weight):
 		super().__init__(name,'Man',age,height,weight)
