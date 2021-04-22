@@ -29,6 +29,8 @@ class Man(Human):
 	def __init__(self,name,age,height,weight):
 		super().__init__(name,'Man',age,height,weight)
 
-
+class Woman(Human):
+	def __init__(self,name,age,height,weight):
+		super().__init__(name,'Woman',age,height,weight) 
 		
 
